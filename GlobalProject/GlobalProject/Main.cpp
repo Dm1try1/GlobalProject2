@@ -35,7 +35,12 @@ int main()
 	}
 	case 4: 
 	{
-		cout << "‘ункци€ в разработке" << endl;
+		double a1, b1;
+		cout << "¬ведите первый аргумент" << endl;
+		cin >> a1;
+		cout << "¬ведите второй аргумент" << endl;
+		cin >> b1;
+		cout << MySub(a1, b1) << endl;
 		break;
 	}
 	default:
