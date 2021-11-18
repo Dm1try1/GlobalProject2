@@ -35,7 +35,19 @@ int main()
 	}
 	case 4: 
 	{
-		cout << "Функция в разработке" << endl;
+		double a1, b1;
+		cout << "Введите первый аргумент" << endl;
+		cin >> a1;
+		cout << "Введите второй аргумент" << endl;
+		cin >> b1;
+		while (b1 == 0)
+		{
+			cout << "На ноль делить нельзя" << endl;
+			cout << "Введите второй аргумент" << endl;
+			cin >> b1;
+
+		}
+		cout << MySub(a1, b1) << endl;
 		break;
 	}
 	default:
