@@ -40,6 +40,13 @@ int main()
 		cin >> a1;
 		cout << "Введите второй аргумент" << endl;
 		cin >> b1;
+		while (b1 == 0)
+		{
+			cout << "На ноль делить нельзя" << endl;
+			cout << "Введите второй аргумент" << endl;
+			cin >> b1;
+
+		}
 		cout << MySub(a1, b1) << endl;
 		break;
 	}
