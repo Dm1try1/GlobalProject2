@@ -6,3 +6,7 @@ double MySum(double a, double b)
 {
 	return a1/b1;
 }
+double  MyVich(double a2, double b2)
+{
+	return a2 - b2;
+}
