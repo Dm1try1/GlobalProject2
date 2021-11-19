@@ -5,8 +5,8 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 	int n;
-	cout << "1) Сумма" << endl;
-	cout << "2) Разница" << endl;
+	cout << "1) Суммирование" << endl;
+	cout << "2) Вычитание" << endl;
 	cout << "3) Умножение" << endl;
 	cout << "4) Деление" << endl;
 	cout << "Введите номер функции" << endl;
