@@ -4,4 +4,5 @@
 double MySum(double, double);
 double MySub(double, double);
 double MyVich(double, double);
+double MyUmn(double, double);
 #endif
