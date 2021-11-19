@@ -35,7 +35,12 @@ int main()
 	}
 	case 3:
 	{
-		cout << "‘ункци€ в разработке" << endl;
+		double a3, b3;
+		cout << "¬ведите первый аргумент" << endl;
+		cin >> a3;
+		cout << "¬ведите второй аргумент" << endl;
+		cin >> b3;
+		cout << MyUmn(a3, b3) << endl;
 		break;
 	}
 	case 4: 
@@ -60,4 +65,4 @@ int main()
 	}
 	system("pause");
 	return 0;
-}
+}
